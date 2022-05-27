@@ -7,14 +7,14 @@ Bu problemin 1. excel dosyasında solver ile çözümü sağlanmıs. 2. dosyada 
 Makro aşağıdaki gibidir. Excel alanların isimlendirilmelerinin koddaki şekilde yapılması önemlidir.
 
 ****************
-Sub EnKBedel()
-'EnKBedel Makro
-SolverReset
-SolverOk SetCell:="EnKHedef", MaxMinVal:=2, ValueOf:=0, ByChange:="Karar", _
+>Sub EnKBedel()
+>'EnKBedel Makro
+>SolverReset
+>SolverOk SetCell:="EnKHedef", MaxMinVal:=2, ValueOf:=0, ByChange:="Karar", _
     Engine:=2, EngineDesc:="Simplex LP"
-SolverAdd CellRef:="SolT", Relation:=2, FormulaText:="SagT"
-SolverAdd CellRef:="AltT", Relation:=2, FormulaText:="UstT"
-SolverAdd CellRef:="Karar", Relation:=5, FormulaText:="ikili düzen"
-SolverSolve
-End Sub
+>SolverAdd CellRef:="SolT", Relation:=2, FormulaText:="SagT"
+>SolverAdd CellRef:="AltT", Relation:=2, FormulaText:="UstT"
+>SolverAdd CellRef:="Karar", Relation:=5, FormulaText:="ikili düzen"
+>SolverSolve
+>End Sub
 ****************
