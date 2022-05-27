@@ -6,6 +6,7 @@ Bu problemin 1. excel dosyasında solver ile çözümü sağlanmıs. 2. dosyada 
 
 Makro aşağıdaki gibidir. Excel alanların isimlendirilmelerinin koddaki şekilde yapılması önemlidir.
 
+****************
 Sub EnKBedel()
 'EnKBedel Makro
 SolverReset
@@ -16,3 +17,4 @@ SolverAdd CellRef:="AltT", Relation:=2, FormulaText:="UstT"
 SolverAdd CellRef:="Karar", Relation:=5, FormulaText:="ikili düzen"
 SolverSolve
 End Sub
+****************
