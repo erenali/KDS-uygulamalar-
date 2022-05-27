@@ -1,2 +1,3 @@
-# KDS-uygulamalar-
-Karar Destek Sistemi Uygulamaları
+# KDS-uygulamalari
+Bu bölümde Excel üzerinde yapılan Karar Destek Sistemi Uygulamaları paylaşılacaktır.
+
