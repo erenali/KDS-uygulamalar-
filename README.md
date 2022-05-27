@@ -1,3 +1,3 @@
 # KDS-uygulamalari
-Bu bölümde Excel üzerinde yapılan Karar Destek Sistemi Uygulamaları paylaşılacaktır.
+Bu bölümde lisansüstü eğitimi sırasında aldığım YÖNETİM KARAR DESTEK SİSTEMLERİ dersinde karşılaştığım ve Excel de geliştirilen örnekleri paylaşacağım.
 
